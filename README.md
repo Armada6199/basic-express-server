@@ -14,4 +14,4 @@
 
 ### notes i took from walaid
 
->to test the server without it running you need to use a method from jest called mock, also you need to simulate the req and res object ,and also the next function using jest.fn,you can spy on the console logs using console spy and defining the the instance you want to spy on also the method .
+>to test the server without it running you need to use a method from jest called mock, also you need to simulate the req and res object ,and also the next function using jest.fn,you can spy on the console logs using console spy and defining the the instance you want to spy on also the method ,.

@@ -1,11 +1,8 @@
 'use strict'
-const logger =require('./logger')
+const logger =require('./logger');
+const supertest=require('supertest');
+const {app}=require('../src/server');
+const req=supertest(app);
 describe('testing the logger ',()=>{
-    let consoleSpy;
-    const req={};
-    const res={};
-    const next=jest.fn();
-    it('see the logged ',()=>{
-        logger
-    })
+    
 })
